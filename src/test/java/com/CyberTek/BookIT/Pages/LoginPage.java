@@ -74,12 +74,7 @@ public WebElement signOut;
         actions.click(elem);
     }
 
-    public static void Interview(){
 
-                List<String> list1 = new ArrayList<>();
-        list1.add("Bake");
-        list1.addcamsey
-    }
 
 
 }
