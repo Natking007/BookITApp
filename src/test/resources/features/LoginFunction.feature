@@ -6,6 +6,7 @@ Feature:Login in
     Given I am on the login page
 
     @student
+      @smoke
   Scenario: Login as student
       When I login as student
        And I click on My

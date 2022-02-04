@@ -11,7 +11,7 @@ import java.util.List;
 
 public class LoginPage extends BasePage {
 
-    @FindBy(name = "email")
+        @FindBy(name = "email")
     public WebElement emailBox;
 
     @FindBy(name = "password")
