@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
        // format= {"pretty","html:test-output_1",
                 //"json:target/cucumber-reports/CucumberTestReport.json"},
         dryRun = false,
-       tags = "@student"
+       tags = "@regression"
 )
 
 public class CukesRunner {

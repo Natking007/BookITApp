@@ -5,6 +5,7 @@ Feature: Make, view or cancel reservations
   Background:On the login page
     Given I am on the login page
 
+    @regression
 Scenario: Make reservation as team lead
   When I login as team leader
   And User clicks Hunt button

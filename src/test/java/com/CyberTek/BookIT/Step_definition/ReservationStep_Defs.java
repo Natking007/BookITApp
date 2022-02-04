@@ -34,7 +34,7 @@ public class ReservationStep_Defs {
         hunt.calendarButton.click();
 
         BrowserUtils.waitFor(3);
-        hunt.dateSelect(29);
+        hunt.dateSelect(9);
 
         hunt.from.click();
         BrowserUtils.waitFor(3);
@@ -59,7 +59,9 @@ public class ReservationStep_Defs {
 
         FreeSpotsPage freeSpotsPage = new FreeSpotsPage();
 
-        freeSpotsPage.roomPicker("meru");
+        freeSpotsPage.roomPicker("denali");
+
+        BrowserUtils.clickElements(freeSpotsPage.bookButton);
 
         BrowserUtils.waitFor(3);
         confirmationPage.confirmButton.click();
