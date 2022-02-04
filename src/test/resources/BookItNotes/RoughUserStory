@@ -1,0 +1,51 @@
+User Story1:
+As a user, I should be able to login in Bookit login page.
+Acceptance Criteria
+1. Verify that the user can log in with valid credentials.
+Test Scenarios for login:
+1. Verify that the user is able to login with valid credentials.
+2. Verify that the user is not able to log in with invalid credentials.
+the system shows an error message as
+" [objectProgressEvent]"
+when the user enters incorrect credentials.
+
+User Story 2:
+As a user I should be able to make a reservation on Book it application.
+Acceptance Criteria :
+1.Verify that the team lead or a teacher should be able to make a reservation
+2. Verify that authorized user can reserve only one room maximum per day.!!!!!-GOLD
+3. Verify that authorized user can cancel the reserved room at any time.
+4. Neg-Verify that during the reservation, authorized users can only book the room for
+future hours, and the system should not allow the User to book a passed
+time/date.
+
+
+User Story 3:
+As a User, I should be able to see which rooms are reserved by my team
+through schedule link.
+Acceptance Criteria:
+1. Verify that all Users should be able to see reserved rooms made by his/her
+Team Lead in "My" section by the current Week's view schedule.
+2. Verify that all Users should be able to see reserved rooms made by his/her
+Team Lead in "General" section by the Room view schedule.
+User Story 3:
+As a user I should be able to see the detail information about a room when I click
+Room name from the map.
+
+
+User Story 4:
+As a user I should be able to access the Schedule module.
+Acceptance Criteria:
+Verify the user have 2 options under the schedule module
+Verify team lead or a teacher can book a room  by clicking an spot from the page under My tab
+
+
+User Story 5:
+As a user, I should be able to access to My module.
+AC1. verify there are 3 options under My module.
+AC2. verify self tab shows all the detail info of the user - name, role, campus, retc
+AC3. verify user can see all the other team members from teams tab.
+
+User Story 6:
+As a user, I should be able to logout
+AC1: User should go back to the sign in page once he/she logout.
